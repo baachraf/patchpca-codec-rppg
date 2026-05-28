@@ -1,13 +1,12 @@
 # Spatial Artifact Coherence Determines Codec Robustness in Patch-Based Remote Photoplethysmography
 
-**IEEE Transactions on Biomedical Engineering (TBME)**
 Achraf Ben Ahmed, PlesmoSense SARL
 
 ---
 
 ## Overview
 
-This repository contains the full source code for our TBME paper on codec-robust rPPG. We identify Spatial Artifact Coherence (SAC) — the ratio of off-diagonal to diagonal energy in the 4×4 inter-patch Green-channel covariance matrix (bandpass 0.75–2.5 Hz) — as the physical quantity that determines when spatial patch decomposition outperforms global-projection methods under codec compression.
+This repository contains the full source code for the paper on codec-robust rPPG. We identify Spatial Artifact Coherence (SAC) — the ratio of off-diagonal to diagonal energy in the 4×4 inter-patch Green-channel covariance matrix (bandpass 0.75–2.5 Hz) — as the physical quantity that determines when spatial patch decomposition outperforms global-projection methods under codec compression.
 
 **Key finding:** SAC explains 93.8% of between-variant variance in PCA advantage (r = +0.969). Non-MPEG-4 codecs cluster at SAC 0.10–0.18 with 84–90% PCA win rates; MPEG-4 clusters at SAC 0.48–0.59 with only 61% win rate. Within subjects, 78% confirm the expected pattern (p < 10⁻²², d_z = 0.73). MPEG-4's adverse effect is structural — macroblock DCT geometry — not noise amplitude.
 
