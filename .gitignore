@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDEs
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# Project specific — generated outputs (not committed; regenerate via pipeline)
+figures/csv/
+figures/*.png
+figures/*.pdf
+results/
+window_study/results/
+*.csv
+*.parquet
+*.log
+*.db
+mlruns/
+.mlflow/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Misc
+.env
+*.bak

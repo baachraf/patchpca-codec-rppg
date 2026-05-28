@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+tqdm>=4.65
+opencv-python>=4.8
+matplotlib>=3.7
+statsmodels>=0.14
+notebook>=7.0
