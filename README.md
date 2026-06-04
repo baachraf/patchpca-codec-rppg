@@ -1,4 +1,4 @@
-# Spatial Artifact Coherence Determines Codec Robustness in Patch-Based Remote Photoplethysmography
+# Spatial Artifact Coherence Determines Codec Robustness in Patch-Based rPPG
 
 Achraf Ben Ahmed, PlesmoSense SARL
 
@@ -197,5 +197,23 @@ tbme_patch_pca/
 │   ├── window_study.py      — window length sensitivity study
 │   └── README.md
 └── bootstrap.py             — session entry point
+```
+
+---
+
+## Citation
+
+If you use this code, please cite:
+
+```
+@article{benahmed2026sac,
+  title          = {Spatial Artifact Coherence Determines Codec Robustness in Patch-Based rPPG},
+  author         = {Ben Ahmed, Achraf},
+  journal        = {IEEE Transactions on Biomedical Engineering},
+  year           = {2026},
+  eprint         = {2606.04198},
+  archivePrefix  = {arXiv},
+  url            = {https://arxiv.org/abs/2606.04198}
+}
 ```
 
