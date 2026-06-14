@@ -209,10 +209,10 @@ If you use this code, please cite:
 @article{benahmed2026sac,
   title          = {Spatial Artifact Coherence Determines Codec Robustness in Patch-Based rPPG},
   author         = {Ben Ahmed, Achraf},
-  journal        = {IEEE Transactions on Biomedical Engineering},
   year           = {2026},
   eprint         = {2606.04198},
   archivePrefix  = {arXiv},
+  primaryClass   = {eess.IV},
   url            = {https://arxiv.org/abs/2606.04198}
 }
 ```
